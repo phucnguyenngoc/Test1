@@ -44,6 +44,7 @@ public class frmMain extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
+            // Set the look and feel to the system's default
             new frmMain().setVisible(true);
         });
     }
